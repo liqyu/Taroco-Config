@@ -7,9 +7,9 @@ base:
   mysql:
     url: jdbc:mysql://taroco-mysql:3306
   redis:
-    host: taroco-redis
+    host: 127.0.0.1
     port: 6379
-    password: taroco!@#$
+    password: 123456
   zipkin:
     url: http://taroco-zipkin:10003/
 
